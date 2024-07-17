@@ -7,11 +7,11 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/TMM-TEAM/NobimusicV2/stargazers"><img src="https://img.shields.io/github/stars/TMM-TEAM/NobimusicV2?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/TMM-TEAM/NobimusicV2/network/members"> <img src="https://img.shields.io/github/forks/TMM-TEAM/NobimusicV2?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/TMM-TEAM/NobimusicV2/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
+<a href="https://github.com/TeamEspro/EsproMusicBot/stargazers"><img src="https://img.shields.io/github/stars/TeamEspro/EsproMusicBot?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/TeamEspro/EsproMusicBot/network/members"> <img src="https://img.shields.io/github/forks/TeamEspro/EsproMusicBot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/TeamEspro/EsproMusicBot/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://github.com/TMM-TEAM/NobimusicV2/commits/NobimusicV2"> <img src="https://img.shields.io/github/last-commit/TMM-TEAM/NobimusicV2?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
+<a href="https://github.com/TeamEspro/EsproMusicBot/commits/NobimusicV2"> <img src="https://img.shields.io/github/last-commit/TeamEspro/EsproMusicBot?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
 </p>
 
 <p align="center">
@@ -22,13 +22,13 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 </h3>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/TMM-TEAM/NobimusicV2"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/TeamEspro/EsproMusicBot"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
 </h3>
 
-- Get your [Necessary Variables](https://github.com/TMM-TEAM/NobimusicV2/blob/master/sample.env)
+- Get your [Necessary Variables](https://github.com/TeamEspro/EsproMusicBot/blob/master/sample.env)
 - Upgrade and Update by :
 `sudo apt-get update && sudo apt-get upgrade -y`
 - Install Ffmpeg by :
@@ -40,7 +40,7 @@
 - Install Node js by :
 `curl -fssL https://deb.nodesource.com/setup_19.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 - Clone the repository by :
-`git clone https://github.com/TMM-TEAM/NobimusicV2 && cd NobimusicV2`
+`git clone https://github.com/TeamEspro/EsproMusicBot && cd NobimusicV2`
 - Install requirements by :
 `pip3 install -U -r requirements.txt`
 - Fill your variables in the env by :
