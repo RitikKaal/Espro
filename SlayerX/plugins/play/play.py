@@ -7,7 +7,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from EsproMusic import Apple, SoundCloud, Spotify, Telegram, YouTube, app
-from EsproMusic.core.call import Slayer
+from EsproMusic.core.call import Espro
 from EsproMusic.utils import seconds_to_min, time_to_seconds
 from EsproMusic.utils.channelplay import get_channeplayCB
 from EsproMusic.utils.decorators.language import languageCB
@@ -280,7 +280,7 @@ async def play_commnd(
             return await mystic.delete()
         else:
             try:
-                await Slayer.stream_call(url)
+                await Espro.stream_call(url)
             except NoActiveGroupCall:
                 await mystic.edit_text(_["black_9"])
                 return await app.send_message(
@@ -504,7 +504,7 @@ async def anonymous_check(client, CallbackQuery):
         pass
 
 
-@app.on_callback_query(filters.regex("SlayerPlaylists") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("EsproPlaylists") & ~BANNED_USERS)
 @languageCB
 async def play_playlists_command(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
