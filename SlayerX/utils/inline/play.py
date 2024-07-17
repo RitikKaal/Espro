@@ -4,7 +4,7 @@ import config
 
 from pyrogram.types import InlineKeyboardButton
 
-from SlayerX.utils.formatters import time_to_seconds
+from EsproMusic.utils.formatters import time_to_seconds
 
 
 def track_markup(_, videoid, user_id, channel, fplay):

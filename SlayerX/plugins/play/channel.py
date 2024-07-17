@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter, ChatMemberStatus, ChatType
 from pyrogram.types import Message
 
-from SlayerX import app
-from SlayerX.utils.database import set_cmode
-from SlayerX.utils.decorators.admins import AdminActual
+from EsproMusic import app
+from EsproMusic.utils.database import set_cmode
+from EsproMusic.utils.decorators.admins import AdminActual
 from config import BANNED_USERS
 
 

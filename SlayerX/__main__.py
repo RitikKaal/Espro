@@ -5,11 +5,11 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from SlayerX import LOGGER, app, userbot
-from SlayerX.core.call import Slayer
-from SlayerX.misc import sudo
-from SlayerX.plugins import ALL_MODULES
-from SlayerX.utils.database import get_banned_users, get_gbanned
+from EsproMusic import LOGGER, app, userbot
+from EsproMusic.core.call import Slayer
+from EsproMusic.misc import sudo
+from EsproMusic.plugins import ALL_MODULES
+from EsproMusic.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
@@ -35,27 +35,27 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("SlayerX.plugins" + all_module)
-    LOGGER("SlayerX.plugins").info("Successfully Imported Modules...")
+        importlib.import_module("EsproMusic.plugins" + all_module)
+    LOGGER("EsproMusic.plugins").info("Successfully Imported Modules...")
     await userbot.start()
     await Slayer.start()
     try:
         await Slayer.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
-        LOGGER("SlayerX").error(
+        LOGGER("EsproMusic").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
         )
         exit()
     except:
         pass
     await Slayer.decorators()
-    LOGGER("SlayerX").info(
-        "SlayerX Music Bot Started Successfully, JOIN @SUDO_APT_UPDATE"
+    LOGGER("EsproMusic").info(
+        "EsproMusic Music Bot Started Successfully, JOIN @SUDO_APT_UPDATE"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("SlayerX").info("Stopping SlayerX Music Bot...")
+    LOGGER("EsproMusic").info("Stopping EsproMusic Music Bot...")
 
 
 if __name__ == "__main__":

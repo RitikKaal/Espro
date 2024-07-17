@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from SlayerX import app
-from SlayerX.misc import SUDOERS
-from SlayerX.utils.database import add_off, add_on
-from SlayerX.utils.decorators.language import language
+from EsproMusic import app
+from EsproMusic.misc import SUDOERS
+from EsproMusic.utils.database import add_off, add_on
+from EsproMusic.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)

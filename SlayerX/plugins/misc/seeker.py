@@ -1,7 +1,7 @@
 import asyncio
 
-from SlayerX.misc import db
-from SlayerX.utils.database import get_active_chats, is_music_playing
+from EsproMusic.misc import db
+from EsproMusic.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():

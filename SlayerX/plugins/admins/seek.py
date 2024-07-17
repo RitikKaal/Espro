@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SlayerX import YouTube, app
-from SlayerX.core.call import Slayer
-from SlayerX.misc import db
-from SlayerX.utils import AdminRightsCheck, seconds_to_min
-from SlayerX.utils.inline import close_markup
+from EsproMusic import YouTube, app
+from EsproMusic.core.call import Slayer
+from EsproMusic.misc import db
+from EsproMusic.utils import AdminRightsCheck, seconds_to_min
+from EsproMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 

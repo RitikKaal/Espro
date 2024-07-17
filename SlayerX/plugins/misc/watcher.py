@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SlayerX import app
-from SlayerX.core.call import Slayer
+from EsproMusic import app
+from EsproMusic.core.call import Slayer
 
 welcome = 20
 close = 30

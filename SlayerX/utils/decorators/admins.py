@@ -1,9 +1,9 @@
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from SlayerX import app
-from SlayerX.misc import SUDOERS, db
-from SlayerX.utils.database import (
+from EsproMusic import app
+from EsproMusic.misc import SUDOERS, db
+from EsproMusic.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,

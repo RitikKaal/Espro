@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from SlayerX import YouTube, app
-from SlayerX.core.call import Slayer
-from SlayerX.misc import db
-from SlayerX.utils.database import get_loop
-from SlayerX.utils.decorators import AdminRightsCheck
-from SlayerX.utils.inline import close_markup, stream_markup
-from SlayerX.utils.stream.autoclear import auto_clean
-from SlayerX.utils.thumbnails import get_thumb
+from EsproMusic import YouTube, app
+from EsproMusic.core.call import Slayer
+from EsproMusic.misc import db
+from EsproMusic.utils.database import get_loop
+from EsproMusic.utils.decorators import AdminRightsCheck
+from EsproMusic.utils.inline import close_markup, stream_markup
+from EsproMusic.utils.stream.autoclear import auto_clean
+from EsproMusic.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 

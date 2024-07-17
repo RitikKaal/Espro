@@ -1,8 +1,8 @@
-from SlayerX.core.bot import Slayer
-from SlayerX.core.dir import dirr
-from SlayerX.core.git import git
-from SlayerX.core.userbot import Userbot
-from SlayerX.misc import dbb, heroku
+from EsproMusic.core.bot import Slayer
+from EsproMusic.core.dir import dirr
+from EsproMusic.core.git import git
+from EsproMusic.core.userbot import Userbot
+from EsproMusic.misc import dbb, heroku
 
 from .logging import LOGGER
 

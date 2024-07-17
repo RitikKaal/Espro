@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from SlayerX import YouTube, app
-from SlayerX.misc import SUDOERS
-from SlayerX.utils.database import (
+from EsproMusic import YouTube, app
+from EsproMusic.misc import SUDOERS
+from EsproMusic.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from SlayerX.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from SlayerX.utils.inline import botplaylist_markup
+from EsproMusic.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
 

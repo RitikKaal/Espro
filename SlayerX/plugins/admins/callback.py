@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from SlayerX import YouTube, app
-from SlayerX.core.call import Slayer
-from SlayerX.misc import SUDOERS, db
-from SlayerX.utils.database import (
+from EsproMusic import YouTube, app
+from EsproMusic.core.call import Slayer
+from EsproMusic.misc import SUDOERS, db
+from EsproMusic.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -17,11 +17,11 @@ from SlayerX.utils.database import (
     music_on,
     set_loop,
 )
-from SlayerX.utils.decorators.language import languageCB
-from SlayerX.utils.formatters import seconds_to_min
-from SlayerX.utils.inline import close_markup, stream_markup, stream_markup_timer
-from SlayerX.utils.stream.autoclear import auto_clean
-from SlayerX.utils.thumbnails import get_thumb
+from EsproMusic.utils.decorators.language import languageCB
+from EsproMusic.utils.formatters import seconds_to_min
+from EsproMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
+from EsproMusic.utils.stream.autoclear import auto_clean
+from EsproMusic.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,

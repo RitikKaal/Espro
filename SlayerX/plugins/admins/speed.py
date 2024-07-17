@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SlayerX import app
-from SlayerX.core.call import Slayer
-from SlayerX.misc import SUDOERS, db
-from SlayerX.utils import AdminRightsCheck
-from SlayerX.utils.database import is_active_chat, is_nonadmin_chat
-from SlayerX.utils.decorators.language import languageCB
-from SlayerX.utils.inline import close_markup, speed_markup
+from EsproMusic import app
+from EsproMusic.core.call import Slayer
+from EsproMusic.misc import SUDOERS, db
+from EsproMusic.utils import AdminRightsCheck
+from EsproMusic.utils.database import is_active_chat, is_nonadmin_chat
+from EsproMusic.utils.decorators.language import languageCB
+from EsproMusic.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []

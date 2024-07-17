@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from SlayerX import app
-from SlayerX.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from SlayerX.utils.decorators import language
-from SlayerX.utils.inline.settings import playmode_users_markup
+from EsproMusic import app
+from EsproMusic.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from EsproMusic.utils.decorators import language
+from EsproMusic.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
 
 

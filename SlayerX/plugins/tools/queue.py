@@ -6,12 +6,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from SlayerX import app
-from SlayerX.misc import db
-from SlayerX.utils import SlayerBin, get_channeplayCB, seconds_to_min
-from SlayerX.utils.database import get_cmode, is_active_chat, is_music_playing
-from SlayerX.utils.decorators.language import language, languageCB
-from SlayerX.utils.inline import queue_back_markup, queue_markup
+from EsproMusic import app
+from EsproMusic.misc import db
+from EsproMusic.utils import SlayerBin, get_channeplayCB, seconds_to_min
+from EsproMusic.utils.database import get_cmode, is_active_chat, is_music_playing
+from EsproMusic.utils.decorators.language import language, languageCB
+from EsproMusic.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}

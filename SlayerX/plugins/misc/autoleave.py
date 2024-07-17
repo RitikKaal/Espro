@@ -4,15 +4,15 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from SlayerX import app
-from SlayerX.core.call import Slayer, autoend
-from SlayerX.utils.database import get_client, is_active_chat, is_autoend
+from EsproMusic import app
+from EsproMusic.core.call import Slayer, autoend
+from EsproMusic.utils.database import get_client, is_active_chat, is_autoend
 
 
 async def auto_leave():
     if config.AUTO_LEAVING_ASSISTANT:
         while not await asyncio.sleep(900):
-            from SlayerX.core.userbot import assistants
+            from EsproMusic.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)

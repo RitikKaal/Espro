@@ -5,12 +5,12 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
-from SlayerX import app
-from SlayerX.core.call import Slayer
-from SlayerX.misc import db
-from SlayerX.utils.database import get_assistant, get_authuser_names, get_cmode
-from SlayerX.utils.decorators import ActualAdminCB, AdminActual, language
-from SlayerX.utils.formatters import alpha_to_int, get_readable_time
+from EsproMusic import app
+from EsproMusic.core.call import Slayer
+from EsproMusic.misc import db
+from EsproMusic.utils.database import get_assistant, get_authuser_names, get_cmode
+from EsproMusic.utils.decorators import ActualAdminCB, AdminActual, language
+from EsproMusic.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 
 rel = {}

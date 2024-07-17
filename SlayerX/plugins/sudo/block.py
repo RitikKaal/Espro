@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SlayerX import app
-from SlayerX.misc import SUDOERS
-from SlayerX.utils.database import add_gban_user, remove_gban_user
-from SlayerX.utils.decorators.language import language
-from SlayerX.utils.extraction import extract_user
+from EsproMusic import app
+from EsproMusic.misc import SUDOERS
+from EsproMusic.utils.database import add_gban_user, remove_gban_user
+from EsproMusic.utils.decorators.language import language
+from EsproMusic.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
